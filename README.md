@@ -8,3 +8,6 @@ In this repository, there are two main notebook files:
 - **River From GAN (IPYNB)**: This Jupyter notebook takes the weights of the generator and discriminator, trained from the River Image GAN notebook, and has a script to utilize those weights to generate random river images of size 64x64. 
 
 The data for this project was customly sampled from the Google Earth Engine program, and 1000+ images were snapshotted. Then, around 8-9 transforms were applied to each of these images in the data augmentation process, and the DCGAN was trained on around 10K+ images.
+
+
+The weights for the generator and discriminator ('river_generator.pth' and 'river_discriminator', respectively) are too large to upload on GitHub. **Please e-mail me for any inquiries you may have regarding the full dataset, GAN weights, or training process.**
